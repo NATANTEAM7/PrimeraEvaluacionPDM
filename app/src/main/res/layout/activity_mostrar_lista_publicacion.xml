@@ -6,4 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MostrarListaPublicacionActivity">
 
+    <include
+        android:id="@+id/layoutMostrarListaPublicacion"
+        layout="@layout/mostrar_lista_publicacion"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

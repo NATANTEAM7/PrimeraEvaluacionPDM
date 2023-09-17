@@ -6,4 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".AgregarPublicacionActivity">
 
+    <include
+        android:id="@+id/layoutAgregarPublicacion"
+        layout="@layout/agregar_publicacion"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,6 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".clases.AcercaDeActivity">
+    tools:context=".AcercaDeActivity">
 
+    <!--layout de lo que se hizo en el acercade xml-->
+    <include
+        android:id="@+id/layoutAcercaDe"
+        layout="@layout/acerca_de"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

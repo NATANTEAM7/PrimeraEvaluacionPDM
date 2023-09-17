@@ -6,4 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".AgregarLibroActivity">
 
+    <include
+        android:id="@+id/layoutAgregarLibro"
+        layout="@layout/agregar_libro"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

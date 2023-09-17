@@ -1,4 +1,4 @@
-package com.example.primeraevaluacionpdm.clases;
+package com.example.primeraevaluacionpdm;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
