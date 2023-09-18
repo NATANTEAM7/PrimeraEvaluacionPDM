@@ -13,6 +13,9 @@
         android:theme="@style/Theme.PrimeraEvaluacionPDM"
         tools:targetApi="31">
         <activity
+            android:name=".ElegirTipoPublicacionActivity"
+            android:exported="false" />
+        <activity
             android:name=".MostrarListaPublicacionActivity"
             android:exported="false" />
         <activity

@@ -13,7 +13,7 @@
         android:layout_margin="10dp"
         android:text="@string/acerca_de"
         android:textAlignment="center"
-        android:textSize="19sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +28,7 @@
         android:layout_marginEnd="8dp"
         android:text="@string/natan"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,12 +43,28 @@
         android:layout_marginEnd="8dp"
         android:text="@string/dennis"
         android:textAlignment="center"
-        android:textSize="28sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.400" />
+
+    <Button
+        android:id="@+id/btnFinalizar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button_background"
+        android:textColor="@color/white"
+        android:text="Atras"
+        android:textSize="20sp"
+        android:textAppearance="@style/Widget.Material3.Button"
+
+        app:layout_constraintTop_toBottomOf="@id/txvDennis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.850"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

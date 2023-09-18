@@ -1,14 +1,25 @@
 <resources>
     <string name="app_name">PrimeraEvaluacionPDM</string> <!--Nombre del project-->
-    <string name="acerca_de">Acerca de....</string> <!--Nombre del layout nuevo acerca de-->
-    <string name="natan">Natan River RM20-I04-003</string> <!--Id del texview en acerca de xml-->
+    <string name="acerca_de">Acerca De</string> <!--Nombre del layout nuevo acerca de-->
+    <string name="natan">Natan Rivera RM20-I04-003</string> <!--Id del texview en acerca de xml-->
     <string name="dennis">Dennis Mejia CM20-I04-001</string> <!-- Id del texview en acerca xml-->
     <string name="codigo">Código de publicacion</string> <!---->
     <string name="edtcodigo">Ingrese código de publicacion</string>
     <string name="edt_titulo_libro">Título Libro</string>
     <string name="libro">Ingrese título del libro</string>
     <string name="edt_anio_libro">Año del Libro</string>
-    <string name="anio">Ingrese año del libro</string>
+    <string name="anio">Ingrese año publicacion</string>
     <string name="guardar">Guardar</string>
+
+    <string name="agregar_publicacion">Agregar Publicación</string>
+
+    <string name="mostrar_lista">Mostrar Lista</string>
+
+    <string name="agregar">¿Qué desea agregar?</string>
+
+    <string name="continuar">Continuar</string>
+    <string name="procesar">Procesar</string>
+
+    <string name="revista_numero">Número de la revista</string>
 
 </resources>

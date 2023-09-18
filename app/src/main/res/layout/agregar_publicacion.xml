@@ -1,32 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="104dp"
-        android:layout_height="24dp"
-        android:layout_marginTop="72dp"
-        android:autoText="true"
-        android:text="Eliga una Opcion"
+        android:id="@+id/txvMensajeAgregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/agregar_publicacion"
+        android:textAlignment="center"
+        android:textSize="20sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="153dp" />
+        app:layout_constraintVertical_bias="0.10"/>
+
+    <EditText
+        android:id="@+id/edtCodigo"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/codigo"
+        android:inputType="number"
+        android:minHeight="48dp"
+
+        app:layout_constraintTop_toBottomOf="@id/edtCodigo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.20"
+        app:layout_constraintWidth_default="wrap"
+        app:layout_constraintWidth_max="488dp"/>
+
+    <EditText
+        android:id="@+id/edtTitulo"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:hint="Titulo de publicación"
+        android:inputType="text"
+        android:minHeight="48dp"
+
+        app:layout_constraintTop_toBottomOf="@id/edtCodigo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.10"
+        app:layout_constraintWidth_default="wrap"
+        app:layout_constraintWidth_max="488dp"/>
+
+    <EditText
+        android:id="@+id/edtAnioPublicacion"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/anio"
+        android:inputType="text"
+        android:minHeight="48dp"
+
+        app:layout_constraintTop_toBottomOf="@id/edtTitulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.10"
+        app:layout_constraintWidth_default="wrap"
+        app:layout_constraintWidth_max="488dp"/>
+
+    <EditText
+        android:id="@+id/edtNumeroRevista"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/revista_numero"
+        android:inputType="number"
+        android:minHeight="48dp"
+
+        app:layout_constraintTop_toBottomOf="@id/edtAnioPublicacion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.10"
+        app:layout_constraintWidth_default="wrap"
+        app:layout_constraintWidth_max="488dp"/>
 
     <Button
-        android:id="@+id/AgreLib"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnProcesar"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="Agregar Libro"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="221dp" />
+        android:background="@drawable/rounded_button_background"
+        android:textColor="@color/white"
+        android:text="@string/procesar"
+        android:textSize="15sp"
+        android:textAppearance="@style/Widget.Material3.Button"
 
-    <Button
-        android:id="@+id/AgreRevist"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Agregar Revista"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="364dp" />
+        app:layout_constraintTop_toBottomOf="@id/edtNumeroRevista"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

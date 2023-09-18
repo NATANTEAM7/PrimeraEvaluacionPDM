@@ -6,4 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".ElegirTipoPublicacionActivity">
 
+    <include
+        android:id="@+id/layoutElegirTipoPublicacion"
+        layout="@layout/elegir_tipo_publicacion" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

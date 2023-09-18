@@ -8,7 +8,6 @@
 
     <include
         android:id="@+id/layoutAgregarPublicacion"
-        layout="@layout/agregar_publicacion"
-        />
+        layout="@layout/agregar_publicacion" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
