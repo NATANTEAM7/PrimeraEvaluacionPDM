@@ -1,2 +1,2 @@
-package com.example.primeraevaluacionpdm.clases;public class Prestable {
+package com.example.primeraevaluacionpdm.clases;public interface Prestable {
 }

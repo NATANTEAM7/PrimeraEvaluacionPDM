@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class AgregarLibroActivity extends AppCompatActivity {
+public class ElegirTipoPublicacionActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_agregar_libro);
+        setContentView(R.layout.activity_elegir_tipo_publicacion);
     }
 }

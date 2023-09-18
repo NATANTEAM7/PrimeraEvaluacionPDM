@@ -4,11 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AgregarLibroActivity">
-
-    <include
-        android:id="@+id/layoutAgregarLibro"
-        layout="@layout/agregar_libro"
-        />
+    tools:context=".ElegirTipoPublicacionActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
